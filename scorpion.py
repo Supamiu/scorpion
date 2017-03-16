@@ -38,7 +38,7 @@ def main():
         plot_data_variance.append(variance(generation, max_nrj))
         # Puis on renouvelle une generation
         population = new_generation(generation)
-        print(str(int(g / GENERATIONS * 100)), "% done")
+        print("\r" + str(int(g / GENERATIONS * 100)) + "% done", end='')
 
     max_nrj = maxnrj(generation)
     major = best(generation)

@@ -1,7 +1,6 @@
 import data
 import limites
 import metier
-from limites import longueur_a_vide
 
 
 def parse_element(el):

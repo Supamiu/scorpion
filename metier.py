@@ -5,8 +5,6 @@ GRAVITY = 9.81
 
 
 def ressort(E, v):
-    # On part sur un scropion en titane.
-    # La variance du matériaux sera ajoutée plus tard.
     return (E / (1 - (2 * v))) / 3
 
 
